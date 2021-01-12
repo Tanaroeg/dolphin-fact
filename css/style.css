@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Prompt;
+    src: url("../font/Prompt-Regular.ttf");
+}
+@font-face {
+    font-family: Prompt;
+    src: url("../font/Prompt-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Prompt;
+    src: url("../font/Prompt-ExtraLight.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: Prompt;
+    src: url("../font/Prompt-Medium.ttf");
+    font-weight: 600;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Prompt';
+
+}
+.scroll-btn {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  -webkit-transform: translate3d(-50%,-50%,0);
+  -moz-transform: translate3d(-50%,-50%,0);
+  -ms-transform: translate3d(-50%,-50%,0);
+  -o-transform: translate3d(-50%,-50%,0);
+}
+.scroll-btn:hover {
+  color: #fff;
+}
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+  font-size: 5.5em;
+  font-weight: 600;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+.jarallax {
+  min-height: 300px;
+}
+.bg-05-white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.bg-sea {
+  background-color: #071844;
+}
+th, td {
+  text-align: center;
+}
+#menu {
+  position: fixed;
+  right: -50px;
+  top: 50%;
+  width: 8em;
+  margin-top: -6.5em;
+  z-index: 2;
+}
+
+#menu ul li {
+  list-style: none;
+  margin-bottom: 2px;
+}
+
+.item_menu {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 20px;
+}
+.item_menu:hover {
+  background-color: #000;
+}
+a.active {
+  background-color: #000;
+}
